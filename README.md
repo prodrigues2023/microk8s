@@ -91,6 +91,8 @@ Substitua o campo "type" por NodePort e acrescente a chave "nodePort: 30443" e s
  ......
 ```
 
+Agora basta acessar o endereço https://[ip_da_maquina]:30443/ para abrir o dashboard do kubernetes.
+
 Ao acessar o endereço será solicitado um token valido para acesso, para gerar utilize o comando:
 ```bash
 microk8s kubectl create token default
